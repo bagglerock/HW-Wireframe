@@ -4,47 +4,50 @@
     color: #777;
 }
 
+body {
+    margin: 0 100 0 100;
+}
+
 div {
     background-color: #ebebeb;
     padding: 25px;
     text-align: center;
     box-sizing: border-box;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
-#header {
+.header {
     margin-bottom: 10px;
 }
 
-#nav {
+.nav {
     margin-bottom: 10px;
 }
 
-#section {
+.section {
     margin-bottom: 10px;
-    width: 40%;
+    width: 49%;
     float: left;
 }
 
-#aside {
+.aside {
     margin-bottom: 10px;
+    width: 49%;
     float: right;
-    overflow: auto;
+    //overflow: auto;
     
 }
 
-#footer {
+.footer {
     clear: both;
 }
 
 
-#article {
+.article {
     background-color: #777;
     color: #ebebeb;
     margin: 7px;
 }
 
-#article-content {
+.article-content {
     margin: 5px;
 }
