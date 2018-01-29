@@ -1,7 +1,44 @@
 * {
     background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
 }
 
 div {
     background-color: #ebebeb;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px;
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 10px;
+}
+
+#nav {
+    margin-bottom: 10px;
+}
+
+#section {
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+#aside {
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+#footer {}
+
+
+#article {
+    background-color: #777;
+    color: #ebebeb;
+    margin: 7px;
+}
+
+#article-content {
+    margin: 5px;
 }
